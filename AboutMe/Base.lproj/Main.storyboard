@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D8-6M-MBR">
+                                <rect key="frame" x="40" y="74" width="63" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HqQ-et-ROg">
+                                <rect key="frame" x="111" y="74" width="53" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USN-74-X7T">
+                                <rect key="frame" x="40" y="126" width="86" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtK-aO-QBc">
+                                <rect key="frame" x="144.5" y="802" width="125" height="30"/>
+                                <state key="normal" title="Introduce Yourself"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xg2-tP-9g6">
+                                <rect key="frame" x="134" y="126" width="53" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wtK-aO-QBc" secondAttribute="bottom" constant="30" id="3zg-CY-bof"/>
+                            <constraint firstItem="xg2-tP-9g6" firstAttribute="centerY" secondItem="USN-74-X7T" secondAttribute="centerY" id="8ic-m6-DmK"/>
+                            <constraint firstItem="HqQ-et-ROg" firstAttribute="centerY" secondItem="0D8-6M-MBR" secondAttribute="centerY" id="MO7-l6-n0i"/>
+                            <constraint firstItem="wtK-aO-QBc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MvB-va-ceu"/>
+                            <constraint firstItem="USN-74-X7T" firstAttribute="top" secondItem="0D8-6M-MBR" secondAttribute="bottom" constant="25" id="NAh-NX-o4M"/>
+                            <constraint firstItem="xg2-tP-9g6" firstAttribute="leading" secondItem="USN-74-X7T" secondAttribute="trailing" constant="8" id="UyH-W1-zzy"/>
+                            <constraint firstItem="HqQ-et-ROg" firstAttribute="leading" secondItem="0D8-6M-MBR" secondAttribute="trailing" constant="8" id="V66-ez-2Oc"/>
+                            <constraint firstItem="0D8-6M-MBR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="h2K-Ls-Dgd"/>
+                            <constraint firstItem="0D8-6M-MBR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="yKf-bv-0gQ"/>
+                            <constraint firstItem="USN-74-X7T" firstAttribute="leading" secondItem="0D8-6M-MBR" secondAttribute="leading" id="yhY-7w-jxF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
